@@ -1,0 +1,34 @@
+Format: 1.8
+Date: Wed, 21 May 2025 00:00:00 -0000
+Source: ros-humble-web-video-server
+Binary: ros-humble-web-video-server
+Built-For-Profiles: noudeb
+Architecture: amd64
+Version: 2.1.0-1-g462acec-2025.05.26.10.30
+Distribution: jammy
+Urgency: high
+Maintainer: Błażej Sowa <blazej@fictionlab.pl>
+Changed-By: Błażej Sowa <blazej@fictionlab.pl>
+Description:
+ ros-humble-web-video-server - HTTP Streaming of ROS Image Topics in Multiple Formats
+Changes:
+ ros-humble-web-video-server (2.1.0-1-g462acec-2025.05.26.10.30) jammy; urgency=high
+ .
+   * Use target_link_libraries instead of ament_target_dependencies (#182)
+   * Fix compile warnings (#176)
+   * Use chrono steady clock for frame timing (#173)
+   * Add pkg-config dependency (#175)
+   * Separate web_video_server into a component and an executable (#168)
+   * Contributors: Błażej Sowa, Fabian Freihube, Joe Dinius, Ph.D., Lars Lorentz Ludvigsen, Mat198
+Checksums-Sha1:
+ 464ed20af3c1f918161b4a8d71b7bd12d46042fc 5966162 ros-humble-web-video-server-dbgsym_2.1.0-1-g462acec-2025.05.26.10.30_amd64.ddeb
+ c4b07c2d7a008149acd9dcea3079c0194ebf7631 34972 ros-humble-web-video-server_2.1.0-1-g462acec-2025.05.26.10.30_amd64.buildinfo
+ 5f4380c24d83cbcceb6145cff877cd5f387cdabc 183480 ros-humble-web-video-server_2.1.0-1-g462acec-2025.05.26.10.30_amd64.deb
+Checksums-Sha256:
+ 8b692d00f0a76af1d242c603fca92c7341adbb238479cff74981e4e76bce4432 5966162 ros-humble-web-video-server-dbgsym_2.1.0-1-g462acec-2025.05.26.10.30_amd64.ddeb
+ 8d9e27d2c90b9f9c1a21e05eeaf20400e27700c4cccd2be9a667747ee21fd912 34972 ros-humble-web-video-server_2.1.0-1-g462acec-2025.05.26.10.30_amd64.buildinfo
+ 299f57bf431d72407a8fd816e7db4a083d2e5f1985d42327c05fb8f76062041c 183480 ros-humble-web-video-server_2.1.0-1-g462acec-2025.05.26.10.30_amd64.deb
+Files:
+ 3f4ed8cd2279480674f8ce005f351ba3 5966162 debug optional ros-humble-web-video-server-dbgsym_2.1.0-1-g462acec-2025.05.26.10.30_amd64.ddeb
+ cc328b5e0af733b2f28b6747edb1773b 34972 misc optional ros-humble-web-video-server_2.1.0-1-g462acec-2025.05.26.10.30_amd64.buildinfo
+ 33fb65e1e44ec75fb87ac4321f28fed7 183480 misc optional ros-humble-web-video-server_2.1.0-1-g462acec-2025.05.26.10.30_amd64.deb
